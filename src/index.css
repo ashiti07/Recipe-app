@@ -52,7 +52,7 @@ code {
 
 .home {
   display: flex;
-  margin: 2rem 7rem;
+  margin: 2rem 4rem;
   border-radius: 30px;
   border: 1px solid #636060;
   background-image: url('./images/banner-2.jpg');
