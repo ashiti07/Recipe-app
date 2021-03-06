@@ -17,7 +17,7 @@ const Cart = () =>{
 
     useEffect(()=>{
         getRecipes();
-    },[query]);
+    },[query]);// eslint-disable-line react-hooks/exhaustive-deps
 
     useEffect(()=> {
         AOS.init({duration:3000})

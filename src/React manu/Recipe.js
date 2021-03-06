@@ -13,7 +13,7 @@ const Recipe = ({title, calories, image, ingredients}) => {
       <h3>{title}</h3>
       <ol>
         {ingredients.map((ingredient) => (
-          <li>{ingredient.text}</li>
+          <li key={ingredient.title}>{ingredient.text}</li>
         ))}
       </ol>
       <img src={image} className="recipe-image" alt="ingridients images" />
